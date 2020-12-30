@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_SERVER_JARS += \
     system_ext:comet-services
 
+# Google Camera
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/sysconfig/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
+
 # Hinge angle sensor
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.hinge_angle.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.hinge_angle.xml
