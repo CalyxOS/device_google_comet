@@ -39,3 +39,6 @@ else
 include device/google/comet23/comet23/BoardConfig.mk
 
 endif
+
+DEVICE_PATH := device/google/comet
+include $(DEVICE_PATH)/$(TARGET_BOOTLOADER_BOARD_NAME)/BoardConfig-calyx.mk
