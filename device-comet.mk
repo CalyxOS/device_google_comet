@@ -17,6 +17,10 @@ SHIPPING_API_LEVEL := 34
 # Inherit from zumapro
 include device/google/zumapro/device-shipping-common.mk
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/permissions/permissions_com.android.pixeldisplayservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.android.pixeldisplayservice.xml
+
 # EUICC
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/permissions/permissions_com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/permissions_com.google.android.euicc.xml
