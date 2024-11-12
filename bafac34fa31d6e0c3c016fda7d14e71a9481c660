@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0617da04_0b86c514",
+        "filename": "device-comet.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-12T09:23:51Z",
+      "side": 1,
+      "message": "This is good",
+      "revId": "bafac34fa31d6e0c3c016fda7d14e71a9481c660",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
