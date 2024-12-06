@@ -55,7 +55,7 @@ system_ext/etc/permissions/com.shannon.rcsservice.xml
 system_ext/lib64/libmediaadaptor.so
 system_ext/lib64/libpixelimsmedia.so
 system_ext/lib64/vendor.google.whitechapel.audio.audioext@4.0.so
-system_ext/lib64/vendor.google.whitechapel.audio.extension-V2-ndk.so
+system_ext/lib64/vendor.google.whitechapel.audio.extension-V3-ndk.so
 system_ext/priv-app/PixelImsMediaService/PixelImsMediaService.apk
 system_ext/priv-app/PixelQualifiedNetworksService/PixelQualifiedNetworksService.apk
 system_ext/priv-app/ShannonIms/ShannonIms.apk;PRESIGNED
@@ -71,6 +71,7 @@ system_ext/framework/google-ril.jar
 system_ext/priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk
 system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk;PRESIGNED
 system_ext/priv-app/EuiccSupportPixel-P23/Felica_Tag_66_Changer.apdu
+system_ext/priv-app/EuiccSupportPixel-P23/SUSA_RC2_24.up
 system_ext/priv-app/EuiccSupportPixel-P23/esim-full-v1.img
 system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk;PRESIGNED
 system_ext/priv-app/ril-extension/ril-extension.apk;PRESIGNED
