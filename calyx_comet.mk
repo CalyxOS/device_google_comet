@@ -22,8 +22,8 @@ PRODUCT_MODEL := Pixel 9 Pro Fold
 PRODUCT_NAME := calyx_$(DEVICE_CODENAME)
 
 PRODUCT_BUILD_PROP_OVERRIDES := \
-    BuildDesc="comet-user 15 BP1A.250305.020 13009785 release-keys" \
-    BuildFingerprint=google/comet/comet:15/BP1A.250305.020/13009785:user/release-keys \
+    BuildDesc="comet-user 15 BP1A.250405.007 13240079 release-keys" \
+    BuildFingerprint=google/comet/comet:15/BP1A.250405.007/13240079:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
