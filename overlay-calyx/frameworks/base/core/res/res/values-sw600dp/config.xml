@@ -24,10 +24,6 @@
          rotations as the default behavior. -->
     <bool name="config_allowAllRotations">false</bool>
 
-    <!-- If false and config_allowAllRotations is false, the screen will rotate to the natural
-         orientation of the device when the auto-rotate policy is toggled. -->
-    <bool name="config_useCurrentRotationOnRotationLockChange">true</bool>
-
     <!-- Set to true to enable the user switcher on the keyguard. -->
     <bool name="config_keyguardUserSwitcher">false</bool>
 
