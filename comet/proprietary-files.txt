@@ -2,10 +2,6 @@
 
 # product partition
 
-# Camera extensions
-product/etc/permissions/androidx.camera.extensions.impl.xml
-#product/priv-app/PixelCameraServices/PixelCameraServices.apk;PRESIGNED
-
 # IMS
 product/etc/sysconfig/allowlist_com.shannon.imsservice.xml
 
@@ -20,11 +16,7 @@ system_ext/etc/init/vendor.google.whitechapel.audio.hal.parserservice.rc
 
 # Camera extensions
 system_ext/etc/permissions/com.google.android.camera.experimental2024_system.xml
-system_ext/etc/permissions/com.google.android.camera.extensions.xml
-system_ext/etc/permissions/com.google.android.camerax.extensions.xml
 system_ext/framework/com.google.android.camera.experimental2024_system.jar
-system_ext/framework/com.google.android.camera.extensions.jar
-system_ext/framework/com.google.android.camerax.extensions.jar
 
 # Display
 system_ext/lib64/libpixeldisplaymanager_jni.so;SYMLINK=system_ext/priv-app/PixelDisplayService/lib/arm64/libpixeldisplaymanager_jni.so
