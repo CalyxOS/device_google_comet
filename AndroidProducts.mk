@@ -5,4 +5,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_comet.mk \
+    $(LOCAL_DIR)/calyx_comet.mk \
     $(LOCAL_DIR)/lineage_comet.mk
