@@ -44,10 +44,8 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     ConnectivityResourcesOverlayCometOverride \
-    DMServiceOverlayVendorComet \
     FrameworkResOverlayProductComet \
     FrameworkResOverlayVendorComet \
-    GRilServiceOverlay_CT3 \
     LargeScreenConfigOverlay \
     LargeScreenSettingsProviderOverlay \
     NexusLauncherReleaseOverlayVendorComet \
