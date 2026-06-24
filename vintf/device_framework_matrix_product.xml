@@ -38,18 +38,10 @@
     </hal>
     <hal format="aidl">
         <name>com.google.hardware.pixel.display</name>
-        <version>17</version>
+        <version>21</version>
         <interface>
             <name>IDisplay</name>
             <instance>secondary</instance>
-        </interface>
-    </hal>
-    <hal format="aidl">
-        <name>com.google.pixel.moseyservice</name>
-        <version>2</version>
-        <interface>
-            <name>IMoseyService</name>
-            <instance>default</instance>
         </interface>
     </hal>
 </compatibility-matrix>
