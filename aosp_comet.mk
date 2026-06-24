@@ -8,6 +8,12 @@ $(call inherit-product, device/google/comet/device-comet.mk)
 
 PRODUCT_NAME := aosp_comet
 PRODUCT_DEVICE := comet
-PRODUCT_MODEL := AOSP on comet
-PRODUCT_BRAND := Android
+PRODUCT_MODEL := Pixel 9 Pro Fold
+PRODUCT_BRAND := google
 PRODUCT_MANUFACTURER := Google
+
+PRODUCT_NAME_FOR_ATTESTATION := comet
+PRODUCT_DEVICE_FOR_ATTESTATION := comet
+PRODUCT_MODEL_FOR_ATTESTATION := Pixel 9 Pro Fold
+PRODUCT_BRAND_FOR_ATTESTATION := google
+PRODUCT_MANUFACTURER_FOR_ATTESTATION := Google

@@ -13,9 +13,6 @@ vendor.camera.debug.enable_software_post_sharpen_node=false
 # DCK
 ro.gms.dck.eligible_wcc=3
 
-# Device family
-ro.build.device_family=CT3
-
 # Display
 debug.sf.set_idle_timer_ms_4619827677550801152=80
 debug.sf.set_idle_timer_ms_4619827677550801153=1000
@@ -35,10 +32,11 @@ vendor.primarydisplay.op.ns_hz=120
 ro.odm.build.media_performance_class=33
 
 # Radio
-persist.vendor.ril.use_radio_hal=2.1
+persist.vendor.ril.use_radio_hal=2.2
+ro.vendor.ril.use_radio_hal=2.2
 
 # SVN
-ro.vendor.build.svn=49
+ro.vendor.build.svn=58
 
 # Vibrator
 persist.vendor.vibrator.hal.context.scale=60
@@ -47,3 +45,6 @@ ro.vendor.vibrator.hal.device.mass=0.2605
 ro.vendor.vibrator.hal.loc.coeff.folded=3.15
 ro.vendor.vibrator.hal.loc.coeff=2.58
 vendor.audio.hapticgenerator.distortion.output.gain=0.45
+
+# Wi-Fi
+ro.vendor.wifi.model=bcm4390
