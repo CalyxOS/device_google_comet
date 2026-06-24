@@ -40,6 +40,8 @@
 
     <dimen name="comet_unfolded_notification_panel_margin_horizontal">24dp</dimen>
 
+    <dimen name="comet_unfolded_notification_section_divider_height">16dp</dimen>
+
     <dimen name="comet_unfolded_qqs_layout_padding_bottom">16dp</dimen>
 
     <dimen name="comet_unfolded_qs_content_horizontal_padding">24dp</dimen>
