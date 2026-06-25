@@ -104,6 +104,7 @@ product/etc/sysconfig/preinstalled-packages-com.samsung.slsi.telephony.oemril.xm
 product/etc/default-permissions/default-permissions-stargate.xml
 product/etc/permissions/com.google.android.apps.stargate.support.xml
 product/etc/permissions/com.google.android.apps.stargate.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2024-and-newer.xml
 product/etc/sysconfig/satellite_sos.xml
 product/priv-app/SatelliteGateway-Phone-v91522000/SatelliteGateway-Phone-v91522000.apk;PRESIGNED
 
