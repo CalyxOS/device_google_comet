@@ -17,9 +17,6 @@
          be hidden. -->
     <integer name="config_letterboxRestartButtonHideTolerance">85</integer>
 
-    <!-- The number of rows in the QuickSettings -->
-    <integer name="quick_settings_max_rows">5</integer>
-
     <!-- The number of rows in the paginated grid QuickSettings -->
     <integer name="quick_settings_paginated_grid_num_rows">5</integer>
 

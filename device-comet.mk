@@ -48,8 +48,7 @@ PRODUCT_PACKAGES += \
     SfpsOverlay \
     SystemUIGoogleOverlayProductComet \
     SystemUIGoogleOverlayVendorComet \
-    TeleServiceOverlayVendorComet \
-    TelecomOverlayProductComet
+    TeleServiceOverlayVendorComet
 
 PRODUCT_PACKAGES += \
     ApertureOverlayComet

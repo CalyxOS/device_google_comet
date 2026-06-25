@@ -96,18 +96,20 @@
 
     <!-- Class name of the device specific implementation of DeviceStatePolicy.Provider
         or empty if the default should be used. -->
-    <string name="config_deviceSpecificDeviceStatePolicyProvider">com.google.android.server.policy.CometDeviceStatePolicyProvider</string>
+    <string name="config_deviceSpecificDeviceStatePolicyProvider" translatable="false">com.google.android.server.policy.CometDeviceStatePolicyProvider</string>
 
-    <!-- Set to true to offset the wallpaper when using multiple displays so that it's centered
-         at the same position as in the largest display.-->
-    <bool name="config_offsetWallpaperToCenterOfLargestDisplay">true</bool>
+    <!-- The system virtual gamepad app package name. Empty if not supported on this device. -->
+    <string name="config_virtual_gamepad_package_name" translatable="false">com.android.virtualgamepad</string>
+
+    <!-- The system virtual gamepad app activity name. Empty if not supported on this device. -->
+    <string name="config_virtual_gamepad_activity_name" translatable="false">com.android.virtualgamepad.GamepadActivity</string>
 
     <!-- WindowsManager JetPack display features -->
-    <string name="config_display_features">fold-[1038,0,1038,2152]</string>
+    <string name="config_display_features" translatable="false">fold-[1038,0,1038,2152]</string>
 
     <!-- Map of System DeviceState supplied by DeviceStateManager to WM Jetpack posture. Must be in
          the format [System DeviceState]:[WM Jetpack Posture], for example: "0:1". -->
-    <string-array name="config_device_state_postures">
+    <string-array name="config_device_state_postures" translatable="false">
         <item>0:1</item>
         <item>1:2</item>
         <item>2:3</item>
@@ -152,7 +154,7 @@
     <!-- Physical display address that corresponds to the rear display in rear display mode
          and concurrent display mode. Used to get information about the display before
          entering the corresponding modes -->
-    <string name="config_rearDisplayPhysicalAddress">4619827677550801153</string>
+    <string name="config_rearDisplayPhysicalAddress" translatable="false">4619827677550801153</string>
 
     <!-- Whether to enable left-right split in portrait on this device -->
     <bool name="config_leftRightSplitInPortrait">true</bool>

@@ -8,7 +8,7 @@
      frameworks/base/core/java/android/content/res/FontScaleConverterFactory.java
      TODO(b/341235102): Remove font_scale array duplication
      -->
-    <string-array name="entryvalues_font_size">
+    <string-array name="entryvalues_font_size" translatable="false">
         <item>1.0</item>
         <item>1.05</item>
         <item>1.1</item>
