@@ -1,4 +1,6 @@
 # Bluetooth
+bluetooth.ble.client.subrate_le_audio_mode_max_subrate.config=2
+bluetooth.ble.client.subrate_le_audio_mode_min_subrate.config=2
 bluetooth.core.le.dsa_transport_preference=iso-sw,le-acl
 bluetooth.device_id.product_id=16659
 bluetooth.hardware.degraded_performance_mode.enabled=true
@@ -20,3 +22,6 @@ ro.support_one_handed_mode=false
 
 # Quick start
 ro.quick_start.device_id=comet
+
+# Telephony
+persist.vendor.ril.camp_on_earlier=1
